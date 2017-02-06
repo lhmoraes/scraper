@@ -1,0 +1,12 @@
+{
+    "server": {
+        "port": 5000,
+        "jwtSecret": "random-secret-password",
+        "jwtExpiration": "1h",
+        "plugins": [
+            "logger",
+            "swagger",
+            "jwt-auth"
+        ]
+    }
+}
